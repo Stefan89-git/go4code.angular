@@ -1,0 +1,32 @@
+.thead-dark{
+    text-align: left;
+}
+
+.table{
+    border-collapse: separate;
+    border-spacing: 50px 0;
+    width: 60%;
+}
+
+.td{
+    padding: 100px 0;
+}
+
+
+hr{
+    width: 170%;
+    background-color: transparent;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.title{
+    background-color: lightgray;
+    width: 61%;
+}

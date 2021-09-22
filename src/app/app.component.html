@@ -1,0 +1,38 @@
+<div class = "title">
+<h1>Trattoria La Capmapana</h1>
+<h2>...perfect place to grab a quick bite and wash it down with some local vine...</h2>
+</div>
+<div>
+<label id="kategorija"><b>kategorija:</b> </label>
+<input class="search" type="text"> <button >filter</button><br>
+</div>
+
+
+
+<div class="card my-5">
+  <div class="card-body">
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col"><b>name</b></th>
+          <th scope="col"><b>category</b> </th>
+          <th scope="col"><b>price</b> </th>
+        </tr>
+      </thead>
+      <hr>
+      <tbody>
+        <tr *ngFor="let m of menu">
+          <td>{{ m.name }}<hr></td>
+          <td>{{ m.category.name }}<hr></td>
+          <td>{{ m.price }}<hr></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- <label for="category">Select category: </label>
+<select>
+<option *ngFor="let cat of categories" value="{{cat.id}}">
+  {{cat.name}}
+</option>
+</select> -->
